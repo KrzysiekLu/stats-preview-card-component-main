@@ -89,6 +89,7 @@ body {
 }
 
 .card-text-container .stats-container {
+  height: 100%;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,10 +143,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
     width: 100%;
   }
   .card-text-container .stats-container .stats {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   .card-text-container .stats-container .stats:last-child {
     margin-bottom: 0.7rem;
